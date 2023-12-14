@@ -15,9 +15,6 @@ var pipeY=400;
 var score=0;
 function draw() {
 
-  if(yv>0) {img2 =loadImage("yellowbird-upflap.png");}
-  if(yv<0) {img2 =loadImage("yellowbird-downflap.png");}
-  
     clear()
     yv=yv+0.225;
     y=y+yv;
@@ -26,7 +23,7 @@ function draw() {
     rect(pipex,pipeY,100,1000);
     rect(pipex,pipeY-200,100,-1000);
       textFont(customFont);
-    textSize(17);
+    textSize(35);
     text(score,50,50);
     if(pipex>100&&pipex<140&& y>pipeY) {
 window.alert('you lost!');
