@@ -14,11 +14,15 @@ var pipex=1000;
 var pipeY=400;
 var score=0;
 function draw() {
+
+  if(yv>0) {img2 =loadImage("yellowbird-upflap.png");}
+  if(yv<0) {img2 =loadImage("yellowbird-downflap.png");}
+  
     clear()
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
-    image(img2,100,y,50,50);
+    image(img2,100,y,50,30);
     rect(pipex,pipeY,100,1000);
     rect(pipex,pipeY-200,100,-1000);
       textFont(customFont);
