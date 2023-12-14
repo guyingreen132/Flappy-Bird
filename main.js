@@ -22,8 +22,8 @@ function draw() {
     y=y+yv;
     pipex=pipex-5;
     image(img2,100,y,50,30);
-    image(down,pipex,pipeY,100,1000);
-    image(up,pipex,pipeY-200,100,-1000);
+    image(down,pipex,pipeY,109,400);
+    image(up,pipex,pipeY-200,109,-400);
       textFont(customFont);
     textSize(35);
     text(score,50,50);
