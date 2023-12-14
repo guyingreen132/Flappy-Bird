@@ -17,6 +17,13 @@ var pipeY=400;
 var score=0;
 function draw() {
 
+(keyIsDown()) {
+    img =loadImage("yellowbird-downflap.png")
+  }
+(!keyIsDown()) {
+    img =loadImage("yellowbird-upflap.png")
+  }
+  
     clear()
     yv=yv+0.225;
     y=y+yv;
