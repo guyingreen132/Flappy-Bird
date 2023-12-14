@@ -10,6 +10,8 @@ function setup() {
     createCanvas(1000,500);
 }
 
+function draw() {
+
 var y=0;
 var yv=0;
 var pipex=1000;
