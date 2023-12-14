@@ -2,6 +2,8 @@
 function preload(){
   customFont = loadFont("flappy.ttf");
     img2 =loadImage("yellowbird-downflap.png")
+    up =loadImage("up.png")
+    down =loadImage("down.jpeg")
 }
 
 function setup() {
@@ -20,8 +22,8 @@ function draw() {
     y=y+yv;
     pipex=pipex-5;
     image(img2,100,y,50,30);
-    rect(pipex,pipeY,100,1000);
-    rect(pipex,pipeY-200,100,-1000);
+    image(down,pipex,pipeY,100,1000);
+    image(up,pipex,pipeY-200,100,-1000);
       textFont(customFont);
     textSize(35);
     text(score,50,50);
