@@ -30,7 +30,7 @@ image(background,0,0,1000,550);
       textFont(customFont);
     textSize(50);
     text(score,20,40);
-    if(pipex>-100&&pipex<140&& y>pipeY) {
+    if(pipex>300&&pipex<140&& y>pipeY) {
 lost();
     }
     
