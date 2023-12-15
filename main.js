@@ -17,10 +17,7 @@ var yv=0;
 var pipex=1000;
 var pipeY=400;
 var score=0;
-var game=1;
-
 function draw() {
-if (game=1) {
 image(background,0,0,1000,550);
     yv=yv+0.225;
     y=y+yv;
@@ -46,16 +43,11 @@ lost();
     }
     
     if(pipex<-200) {pipex=500; pipeY=random(400, 100);}
-}  
-if(keyPressed()&&key=p&&game=1) {var game=0;}
-if(keyPressed()&&key=p&&game=0) {var game=1;}
   
-}
+  }
 
     function keyPressed() {
-    if(game=1) {
  yv=-6;
-    }
 }
 
 function lost() {
@@ -64,7 +56,5 @@ function lost() {
 }
 
     function mousePressed() {
-    if(game=1) {
  yv=-6;
-    }
 }
