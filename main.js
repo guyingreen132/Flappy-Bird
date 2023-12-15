@@ -19,7 +19,7 @@ var score=0;
 
 function draw() {
 
-image(background,0,0,1000,550);
+image(background,0,0,1000,600);
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
