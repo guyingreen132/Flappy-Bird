@@ -22,12 +22,12 @@ image(background,0,0,1000,550);
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
-    image(img2,100,y,50,30);
+    image(img2,100,y,50,40);
     image(down,pipex,pipeY,109,400);
     image(up,pipex,pipeY-200,109,-400);
       textFont(customFont);
     textSize(50);
-    text(score,20,40);
+    text(score,20,50);
     if(pipex>100&&pipex<140&& y>pipeY) {
 lost();
     }
