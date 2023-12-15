@@ -8,8 +8,13 @@ function preload(){
 }
 
 function setup() {
-    createCanvas(1000,500);
+  var cnv = createCanvas(1000, 500);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+  background(255, 0, 200);
 }
+
 
 var y=0;
 var yv=0;
