@@ -4,7 +4,7 @@ function preload(){
     img2 =loadImage("yellowbird-downflap.png")
     up =loadImage("up.png")
     down =loadImage("down.jpeg")
-  background= loadImage("https://user-images.githubusercontent.com/18351809/46888871-624a3900-ce7f-11e8-808e-99fd90c8a3f4.png")
+  background= loadImage("background.png")
 }
 
 function setup() {
@@ -18,7 +18,6 @@ var pipeY=400;
 var score=0;
 function draw() {
 
-      clear()
   background(background);
     yv=yv+0.225;
     y=y+yv;
