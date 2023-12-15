@@ -8,8 +8,7 @@ function preload(){
 }
 
 function setup() {
-    var canvas = createCanvas(900, 1600);
-    canvas.parent('canvas'); //'canvas' is the id of the target HTML element
+createCanvas(900, 1600);
 }
 
 
