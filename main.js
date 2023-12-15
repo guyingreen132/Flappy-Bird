@@ -16,9 +16,10 @@ var yv=0;
 var pipex=1000;
 var pipeY=400;
 var score=0;
+
 function draw() {
 
-image(background,0,0,1000,500);
+image(background,0,0,1050,500);
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
