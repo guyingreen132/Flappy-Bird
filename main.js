@@ -8,7 +8,7 @@ function preload(){
 }
 
 function setup() {
-createCanvas(1000, 500);
+createCanvas(300, 500);
 }
 
 
