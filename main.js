@@ -26,8 +26,8 @@ image(background,0,0,1000,500);
     image(down,pipex,pipeY,109,400);
     image(up,pipex,pipeY-200,109,-400);
       textFont(customFont);
-    textSize(35);
-    text(score,50,50);
+    textSize(50);
+    text(score,30,30);
     if(pipex>100&&pipex<140&& y>pipeY) {
 lost();
     }
@@ -53,4 +53,8 @@ lost();
 function lost() {
   window.alert('you lost!');
   window.close();
+}
+
+    function mousePressed() {
+ yv=-6;
 }
