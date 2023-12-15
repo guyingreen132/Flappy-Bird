@@ -52,7 +52,7 @@ lost();
 }
 
 function lost() {
-  window.alert('you lost!');
+  window.alert('you lost with '+score+'!');
   window.close();
 }
 
