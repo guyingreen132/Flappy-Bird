@@ -22,7 +22,7 @@ image(background,0,0,1000,550);
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
-    image(img2,100,y,100,80);
+    image(img2,100,y,60,50);
     image(down,pipex,pipeY,109,400);
     image(up,pipex,pipeY-200,109,-400);
       textFont(customFont);
