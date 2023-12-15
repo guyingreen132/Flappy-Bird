@@ -8,7 +8,7 @@ function preload(){
 }
 
 function setup() {
-createCanvas(500, 500);
+createCanvas(400, 500);
 }
 
 
@@ -44,7 +44,7 @@ lost();
 lost();
     }
     
-    if(pipex<0) {pipex=1000; pipeY=random(400, 100);}
+    if(pipex<0) {pipex=500; pipeY=random(400, 100);}
     
 }
 
