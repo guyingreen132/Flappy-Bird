@@ -29,19 +29,19 @@ function draw() {
     text(score,50,50);
     if(pipex>100&&pipex<140&& y>pipeY) {
 window.alert('you lost!');
-  window.close();
+location.reload();
     }
     
     if(pipex==100) {score=score+1;}
     
         if(pipex>100&&pipex<140&&y<(pipeY-200)) {
 window.alert('you lost!');
-  window.close();
+location.reload();
     }
     
     if(y>500) {
     window.alert('you lost!');
-  window.close();
+location.reload();
     }
     
     if(pipex<0) {pipex=1000; pipeY=random(400, 100);}
