@@ -44,7 +44,7 @@ lost();
 lost();
     }
     
-    if(pipex<0) {pipex=500; pipeY=random(400, 100);}
+    if(pipex<-200) {pipex=500; pipeY=random(400, 100);}
     
 }
 
