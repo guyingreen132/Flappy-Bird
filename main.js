@@ -19,7 +19,7 @@ var score=0;
 
 function draw() {
 
-image(background,0,0,1000,600);
+image(background,0,0,1000,550);
     yv=yv+0.225;
     y=y+yv;
     pipex=pipex-5;
@@ -28,7 +28,7 @@ image(background,0,0,1000,600);
     image(up,pipex,pipeY-200,109,-400);
       textFont(customFont);
     textSize(50);
-    text(score,30,30);
+    text(score,20,40);
     if(pipex>100&&pipex<140&& y>pipeY) {
 lost();
     }
